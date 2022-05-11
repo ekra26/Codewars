@@ -1,0 +1,5 @@
+function solution(str, ending){
+  // TODO: complete
+  let strEnding = str.substr(-ending.length,ending.length)
+  return strEnding === ending ? true : false
+}
