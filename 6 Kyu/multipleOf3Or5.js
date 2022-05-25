@@ -10,11 +10,7 @@ function solution(number){
   //create varible to return; default 0//
   let sumOfMultiples = 0;
   
-  //test for numbers that are negative//
-  if (number < 0) {
-    return sumOfMultiples
-  } 
-  
+  //removed test for zero as the loop won't run if number is 0//
   //for loop to rest each number between 1 and the number provided, not inclusive//
   for (let i = 1; i < number; i++) {
     if ( i % 3 === 0 || i % 5 === 0) {
